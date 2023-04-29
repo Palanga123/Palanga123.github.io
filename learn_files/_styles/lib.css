@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+}
+.content{
+    height: 800px;
+    width:100%;
+}
+.category_container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    height: 350px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.book_img img{
+    width: 225px;
+    height: 225px;
+    border-radius: 5px 5px 0 0;
+}
+.book_img{
+    border-radius: 5px 5px 0 0;
+    height: 225px;
+    width:100%;
+    overflow: hidden;
+}
+.math, .chem, .bio, .phy{
+    height: 350px;
+    width: 225px;
+    background: rgb(231, 228, 228);
+    border-radius: 5px;
+}
+.info{
+    text-align: center;
+    height: 125px;
+    width: 100%;
+    background-color: rgb(231, 228, 228);
+    border-radius: 0 0 5px 5px;
+}
+.info button{
+    background: rgb(221, 106, 11);
+    border-radius: 20px;
+    border: none;
+    width: 50%;
+    height: 30px;
+}
+.info p{
+    color: green;
+    font-family: calibri;
+    font-size: 20px;
+}
+.info p span{
+    color: black;
+}
+.img{
+    margin-top: 150px;
+    overflow-x: hidden;
+}
+.intext{
+    font-family: 'Times New Roman';
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 1100px;
+    height: 90px;
+    border-bottom: solid orange 3px ;
+}
+.intext h1{
+    font-size: 50px;
+}

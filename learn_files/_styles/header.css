@@ -1,0 +1,46 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100px;    
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 2px grey;
+    background-color: white;
+    position: fixed;
+}
+
+button, .logo{
+    height: 70px;
+    border: none;
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.logo{
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 30px;
+    color: grey;
+}
+.den button#reg{
+    height: 50px;
+    background: orange;
+    color: white;
+    border-radius: 5px;
+}
+.den button#reg:hover{
+    background-color: grey;
+    border: none;
+}
+.den button#active{
+    background-color: whitesmoke;
+    color: black;
+    border-bottom: solid 5px orangered;
+}
